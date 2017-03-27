@@ -298,23 +298,23 @@ text-decoration: none;
 }
 
 @media only screen and (max-width: 500px) {
-#page{
-	width: 100%;
-}
-#primary{
-	width: 100%;
-	float: none;
-}
+	#page{
+		width: 100%;
+	}
+	#primary{
+		width: 100%;
+		float: none;
+	}
 
-#secondary{
-	width: 100%;
-	float: none;
-}
+	#secondary{
+		width: 100%;
+		float: none;
+	}
 
-#content{
-	display: block;
+	#content{
+		display: block;
+	}
 }
-
 .entry-content li{
   list-style-type: circle;
 }
