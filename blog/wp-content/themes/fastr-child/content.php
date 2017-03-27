@@ -8,18 +8,20 @@
 <header class="entry-header">
 <h2 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 	</header><!-- .entry-header -->
-	<div class="immagine-evidenza">
-		<?php
-			// controlla se il post ha un'immagine in evidenza assegnata
-			if (has_post_thumbnail()) {
-				the_post_thumbnail('thumbnail');
-			}
-		?>
-	</div>
-	<div class="entry-summary">
-        <?php the_excerpt(); ?>
-	</div><!-- .entry-summary -->
-       <?php if ( 'post' == get_post_type() ) : ?>
+	<!-- <div class="contenitore-anteprime"> -->
+		<div class="immagine-evidenza">
+			<?php
+				// controlla se il post ha un'immagine in evidenza assegnata
+				if (has_post_thumbnail()) {
+					the_post_thumbnail('medium');
+				}
+			?>
+		</div>
+		<div class="entry-summary">
+					<?php the_excerpt(); ?>
+		</div><!-- .entry-summary -->
+	<!-- </div> -->
+  	<?php if ( 'post' == get_post_type() ) : ?>
 		<div class="entry-meta">
 			<a href="<?php the_permalink(); ?>"><?php fastr_posted_on(); ?></a>
             <?php

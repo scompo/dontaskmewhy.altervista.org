@@ -293,8 +293,10 @@ text-decoration: none;
 	font-size: 1.5rem;
 }
 
-@media only screen and (max-width: 900px) {
-
+@media only screen and (min-width: 500px) {
+	.immagine-evidenza{
+		float: left;
+	}
 }
 
 @media only screen and (max-width: 500px) {
@@ -314,6 +316,10 @@ text-decoration: none;
 	#content{
 		display: block;
 	}
+
+	.immagine-evidenza{
+		float: none;
+	}
 }
 
 .entry-content li{
@@ -330,4 +336,8 @@ text-decoration: none;
 
 .entry-content a {
   color: #203560;
+}
+
+.wp-post-image {
+    margin: 2rem;
 }
