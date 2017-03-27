@@ -1,0 +1,15 @@
+li{
+  list-style-type: circle;
+}
+
+strong {
+   font-weight: bold;
+}
+
+.entry-content a img {
+    margin: 10px 0;
+}
+
+.entry-content a {
+  color: #203560;
+}
