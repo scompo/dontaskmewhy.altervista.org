@@ -314,3 +314,19 @@ text-decoration: none;
 #content{
 	display: block;
 }
+
+.entry-content li{
+  list-style-type: circle;
+}
+
+.entry-content strong {
+   font-weight: bold;
+}
+
+.entry-content a img {
+    margin: 10px 0;
+}
+
+.entry-content a {
+  color: #203560;
+}

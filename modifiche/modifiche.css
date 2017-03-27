@@ -1,8 +1,8 @@
-li{
+.entry-content li{
   list-style-type: circle;
 }
 
-strong {
+.entry-content strong {
    font-weight: bold;
 }
 
