@@ -16,5 +16,12 @@ $defaults = array(
 );
 
 add_theme_support('custom-header', $defaults);
-add_theme_support('post-thumbnails', array('post')); 
+add_theme_support('post-thumbnails', array('post'));
+
+function custom_excerpt_length( $length ) {
+	return 100;
+}
+
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
 ?>
