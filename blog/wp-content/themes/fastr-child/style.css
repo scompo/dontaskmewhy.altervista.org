@@ -315,18 +315,18 @@ text-decoration: none;
 	display: block;
 }
 
-.entry-content > li{
+li{
   list-style-type: circle;
 }
 
-.entry-content strong {
+strong {
    font-weight: bold;
 }
 
-.entry-content a img {
+a img {
     margin: 10px 0;
 }
 
-.entry-content a {
+a {
   color: #203560;
 }
