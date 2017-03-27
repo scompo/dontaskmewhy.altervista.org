@@ -341,3 +341,7 @@ text-decoration: none;
 .wp-post-image {
     margin: 2rem;
 }
+
+.share-end{
+	display: none;
+}
