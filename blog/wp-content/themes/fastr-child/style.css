@@ -315,7 +315,7 @@ text-decoration: none;
 	display: block;
 }
 
-.entry-content li{
+.entry-content > li{
   list-style-type: circle;
 }
 
