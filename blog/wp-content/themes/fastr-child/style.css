@@ -298,35 +298,36 @@ text-decoration: none;
 }
 
 @media only screen and (max-width: 500px) {
-#page{
-	width: 100%;
-}
-#primary{
-	width: 100%;
-	float: none;
+	#page{
+		width: 100%;
+	}
+	#primary{
+		width: 100%;
+		float: none;
+	}
+
+	#secondary{
+		width: 100%;
+		float: none;
+	}
+
+	#content{
+		display: block;
+	}
 }
 
-#secondary{
-	width: 100%;
-	float: none;
-}
-
-#content{
-	display: block;
-}
-
-li{
+.entry-content li{
   list-style-type: circle;
 }
 
-strong {
+.entry-content strong {
    font-weight: bold;
 }
 
-a img {
+.entry-content a img {
     margin: 10px 0;
 }
 
-a {
+.entry-content a {
   color: #203560;
 }
