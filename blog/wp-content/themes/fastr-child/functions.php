@@ -15,5 +15,6 @@ $defaults = array(
 	'admin-preview-callback' => '',
 );
 
-add_theme_support( 'custom-header', $defaults );
+add_theme_support('custom-header', $defaults);
+add_theme_support('post-thumbnails', array('post')); 
 ?>
